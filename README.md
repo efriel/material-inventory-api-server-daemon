@@ -15,3 +15,8 @@ Copy to /etc/init.d:
 
 cp "misapidaemon.sh" "/etc/init.d/misapidaemon"
 chmod +x /etc/init.d/misapidaemon
+
+Start and test your service and install the service to be run at boot-time:
+service coolserver start
+service coolserver stop
+update-rc.d coolserver defaults
