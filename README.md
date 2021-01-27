@@ -1,0 +1,1 @@
+# material-inventory-api-server-daemon
